@@ -1,0 +1,177 @@
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.brand-logo {
+  font-family: cursive;
+}
+.main-header {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+.navbar {
+  position: sticky;
+  background: url(../img/background.jpg);
+  background-size: cover;
+}
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+#tabs:hover {
+    background-color: #4629A4;
+    background-size: cover;
+    color: white;
+}
+
+.card-panel:hover {
+    background: linear-gradient(#6C86F2,#4629A4);
+    background-size: cover;
+    color: white;
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22);
+
+}
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+#showcaseButtons {
+  color: purple;
+  background-color: white;
+}
+#showcaseButtons:hover {
+  color: white;
+  background-color: purple;
+}
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.section-developers {
+  position: relative;
+  background: url(../img/services.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+#quazzupodcast {
+  color: purple;
+  background-color: white;
+}
+
+#quazzupodcast:hover {
+  color: white;
+  background-color: purple;
+}
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+.page-footer {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.team {
+  display: inline-flex;
+}
+
+.Circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 40px;
+
+}
+#member1 {
+  background: url(../img/member1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#member2 {
+  background: url(../img/member2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#member3 {
+  background: url(../img/member3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Member-names {
+  display: inline-flex;
+}
+
+#names {
+  margin-right: 30px;
+}
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
+.container2 {
+  justify-content: center;
+  text-align: center;
+}
+.btn {
+  border-color: black;
+  font-weight: 700;
+  border-radius: 300px;
+  color: #226666;
+  text-transform: uppercase;
+}
+.buffer {
+  height: 5rem;
+}
+.buffer2 {
+  height: 2rem;
+}
